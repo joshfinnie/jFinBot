@@ -1,14 +1,14 @@
 {
-  "name": "hosted-hubot",
-  "version": "2.6.3",
-  "author": "GitHub Inc.",
+  "name": "jFinBot",
+  "version": "0.1.0",
+  "author": "Josh Finnie <josh@jfin.us>",
   "keywords": [
     "github",
     "hubot",
-    "campfire",
+    "irc",
     "bot"
   ],
-  "description": "A simple helpful robot for your Company",
+  "description": "A simple helpful robot for a few IRC channels.",
   "licenses": [
     {
       "type": "MIT",
@@ -17,11 +17,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/hubot.git"
+    "url": "https://github.com/joshfinnie/jfinbot.git"
   },
   "dependencies": {
-    "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot": "~2.7.2",
+    "hubot-scripts": "~2.5.8",
     "hubot-irc": "~0.2.1"
   },
   "engines": {
