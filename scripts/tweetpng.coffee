@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot tweetpng me joshfinnie
+#   hubot tweetpng me <Twitter handle>
 #
 
 module.exports = (robot) ->
